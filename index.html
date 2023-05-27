@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <button class="back-to-top-btn" onclick="scrollToTop()">&#8593;</button>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-cat"></i>
+              </div>
+              <h1 class="title">Portofolio Saya</h1>
+            <button class="hamburger" type="button">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#experience">Pengalaman Kerja</a></li>
+            <li><a href="#projects">Proyek</a></li>
+            <li><a href="#skills">Skill</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2>Tentang</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="resources/img/profpic.jpeg" alt="Foto Profil">
+                    </div>
+                    <div class="about-text">
+                        <p>Nama saya Budi Atmoko, lahir di Mojokerto pada 15 Agustus 1994. Orang yang berpikiran terbuka, antusias, dan memiliki motivasi diri yang dapat dengan cepat beradaptasi dengan lingkungan baru. Mampu bekerja secara mandiri maupun sebagai bagian dari tim. Senang mempelajari hal-hal baru yang selanjutnya dapat mengembangkan keterampilan yang selalu ingin berkontribusi untuk mencapai misi perusahaan dengan cara terbaik.</p>
+                        <div class="table-container">
+                            <table class="table">
+                              <tr>
+                                <td>Pendidikan Terakhir</td>
+                                <td>S1 Universitas Brawijaya, Malang</td>
+                              </tr>
+                              <tr>
+                                <td>Jurusan</td>
+                                <td>Teknik Komputer</td>
+                              </tr>
+                              <tr>
+                                <td>Berminat dalam</td>
+                                <td>QA Engineer | Computer Engineer | Interest in Full-Stack Web Dev.</td>
+                              </tr>
+                            </table>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <h2>Pengalaman Kerja</h2>
+                <div class="experience-item">
+                    <h3>PT. Daya Dimensi Indonesia</h3>
+                    <h4>QA Engineer</h4>
+                    <p class="date">Juni 2023 - Sekarang</p>
+                    <p>Bertanggung jawab dalam pemeliharaan dan pengembangan website Klob.id sebagai Tester, Pengujian Manual dan Automation.Bekerja dengan JIRA, GitLab, Testrail, dan Firebase</p>
+                </div>
+                <div class="experience-item">
+                    <h3>GoTo Finance</h3>
+                    <h4>Release QA</h4>
+                    <p class="date">April 2022 - Juni 2023</p>
+                    <p>Bertanggung jawab atas Rilis Alpha pada Aplikasi Gopay, Pengujian Manual, dan Alur Rilis Aplikasi. Terbiasa Bekerja dengan JIRA, GitLab, Testrail, dan Firebase</p>
+                </div>
+                <!-- Tambahkan pengalaman kerja lainnya di sini -->
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Proyek</h2>
+                <div class="project">
+                    <h3>Klob.id Testcases</h3>
+                    <p> Membuat testcase dan melakukan pengujian untuk situs Klob.id sebagai agenda dalam proses recruitment PT. Daya Dimensi Indonesia.</p>
+                    <a href="https://docs.google.com/spreadsheets/d/1NTK3caYPN3O3T8cYPVPZYjksKFCEh8hPFUWWsjtlTX4/edit?usp=sharing" target="_blank" class="project-link">Lihat Selengkapnya</a>
+                </div>
+                <div class="project">
+                    <h3>Skripsi</h3>
+                    <p>Deteksi Pergerakan Kepala Berdasarkan Analisis Deteksi Tepi Wajah Berbasis Raspberry Pi Untuk Implementasi Pemilihan Menu Display</p>
+                    <a href="http://repository.ub.ac.id/id/eprint/180865/" target="_blank" class="project-link">Lihat Selengkapnya</a>
+                </div>
+                <div class="project">
+                    <h3>Mobile Device Checklist</h3>
+                    <p>Pembuatan contoh TestCase untuk pengujian pada Mobile Device.</p>
+                    <a href="https://docs.google.com/spreadsheets/d/1CYsCB-zZhmczBKnsEVpO5oyB1s60Aw33/edit?usp=sharing&ouid=113087115272489225609&rtpof=true&sd=true" target="_blank" class="project-link">Lihat Selengkapnya</a>
+                </div>
+                <!-- Tambahkan proyek lainnya di sini -->
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Skill</h2>
+                <div class="skill-item">
+                    <img src="resources/img/Jira-Logo.png" alt="Jira">
+                    <h3>JIRA</h3>
+                    <p>Melakukan log pada Bug Card. Pengelolaan task dan mengisi detail issue yang diperlukan dalam proses Bug Tracking.</p>
+                </div>
+                <div class="skill-item">
+                    <img src="resources/img/TestRail.svg" alt="Testrail">
+                    <h3>Testrail</h3>
+                    <p>Membuat Milestone, Membuat dan mengorganisir test cases yang akan digunakan pada saat FCT Testing.</p>
+                </div>
+                <div class="skill-item">
+                    <img src="resources/img/js.png" alt="JavaScript">
+                    <h3>JavaScript</h3>
+                    <p>Mengenal dasar Javascript yaitu Variabel, Tipe Data dan Operator.</p>
+                </div>
+                <div class="skill-item">
+                    <img src="resources/img/manualtester.png" alt="ManualTester">
+                    <h3>Manual Tester</h3>
+                    <p>Melakukan pengujian pada mobile device dan web page secara manual, dengan macam tipe testing : Regression, Sanity, Smoke dan Exploratory Testing.</p>
+                </div>
+                <!-- Tambahkan skill lainnya di sini -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Kontak</h2>
+                <div class="contact-container">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nama:</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan:</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit">Kirim</button>
+                    </form>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/mas.budi666/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/Budi_Kobu"><i class="fab fa-twitter"></i></a>
+                        <a href="https://github.com/kobugithub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/budi-kobu/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
